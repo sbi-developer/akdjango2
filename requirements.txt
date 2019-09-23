@@ -37,7 +37,6 @@ django-templatetags==1.1
 djangorestframework==3.10.3
 djangorestframework-simplejwt==4.3.0
 djet==0.2.2
--e git+https://github.com/codename-rhu/myfuelrewards.git@92d072b40005802711a65292f2e2d82d41e8b01b#egg=djoser
 docutils==0.14
 Faker==2.0.0
 Flask==1.1.1

@@ -116,3 +116,4 @@ Werkzeug==0.15.5
 wrapt==1.11.1
 xlwt==1.3.0
 zipp==0.5.2
+whitenoise==3.3.1

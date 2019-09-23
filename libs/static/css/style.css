@@ -1,0 +1,496 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 10px; 
+    width: 100%;
+    font-family: avenir;
+}
+
+@font-face{
+    font-family: 'avenir';
+    src: url('font/AvenirLTStd-Light.woff') format('woff')
+}
+
+p{
+    font-size: 13px;
+    color: darkgrey    
+}
+ul{
+    list-style: none;
+    padding: 0;
+    line-height: 3
+}
+
+/* 
+    1. Nav
+    2. Landing
+    3. Clients
+    4. Core features
+    5. Demo
+    6. services
+    7. Button
+
+*/
+
+
+/* nav */
+.navbar{
+    height: 110px;
+}
+.nav-item{
+    margin-left: 30px
+}
+
+/* landing css */
+.landing{
+    width: 100%;
+    height: 100vh;
+}
+.landing-banner{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    z-index: -1;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    margin: auto;
+}
+.newsletter{
+    display: flex;
+}
+.email-input{
+   color: darkgray;
+    font-size: 12px;
+    font-weight: 100;
+}
+.confirmation-mail{
+    display: none;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background: cadetblue;
+}
+.confirm-text{
+    color: white;
+}
+/* clients css */
+
+.clients{
+    margin: 150px 0;
+}
+
+.client-section{
+    border-radius: 8px;
+    background: #FBFBFB;
+    padding: 20px;
+
+}
+.client-logo{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
+.client-img{
+    width: 100%;
+}
+
+/* core features css */
+
+.core-features{
+    margin: 40px;
+}
+.core-section{
+    margin: 20px 0;
+ 
+}
+.features-text{
+    padding-bottom: 40px;
+}
+.features-section{
+    margin: auto
+}
+.core-icon{
+    width: 100%;
+}
+.demo-buttons{
+    margin: auto;
+    padding: 40px 0px;   
+}
+.fa-play{
+    padding-right: 8px;
+}
+
+/* testimonial css */
+
+.testimonial{
+    margin: 90px 0;
+}
+.testimonial-text{
+    background: #3BB4A1;
+    border-radius: 10px;
+    color: #FBFBFB;
+    padding: 15px;
+}
+.testimonial-section{
+    margin: auto;
+    padding: 30px 0;
+}
+.testimonial-info{
+    color: #FBFBFB;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.invert{
+    position: absolute;
+    top: 0;
+    left: -30px;
+    font-size: 80px;
+}.invert-2{
+    position: absolute;
+    top: 53%;
+    font-size: 80px;
+    right: -30px;
+}
+
+/* services css */
+    .services{
+        margin: 40px 0;
+    }
+    .services-text{
+        margin: auto
+    }
+    .services-img{
+        width: 100%
+    }
+    .services-info{
+        font-size: 12px;
+        color: darkgrey;
+        font-weight: 100;
+    }
+
+    /* discover  css*/
+
+        .discover{
+            margin: 140px 0 60px;
+        }
+        .discover-text{
+            margin: auto;   
+        }    
+   
+footer{
+    width: 100%;
+    margin-top: 16%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+        /* footer */
+
+        .footer-menu{
+            margin: auto
+        }
+        .copyright{
+            padding: 40px
+        }
+
+/* buttons*/ 
+
+.btn-primary{
+    background-color: #3BB4A1;
+    border-color: #3BB4A1;
+}
+.connect-button{
+    width: 70%;
+    font-size: 12px;
+    font-weight: 100;
+}
+.start-button{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 0.575rem 1.75rem;}
+.demo-button{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 0.575rem 1.75rem;
+    background: white;
+    border-color: white;
+    color: black;
+}
+.for-business-btn{
+    background-color: #3BB4A1;
+    border-color: #3BB4A1;
+    border-radius: 20px;
+    color: #FBFBFB;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 0.575rem 1.75rem;
+    margin-left: 30px
+}
+
+
+
+/* for business page */
+
+.landing-2{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px
+}
+.landing-banner-2{
+        height: 100%;
+        width: 60%;
+        margin: auto;
+        position: absolute;
+        left: 25%;
+        z-index: -1;
+        top: 25%;
+}
+
+
+.coach-text{
+    position: absolute;
+    top: 30%;
+    padding: 0 50px;
+
+}
+.financial-coach-text{
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    padding-top: 60px;
+}
+.gugu-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    margin: auto;
+}
+.margin-top-10-service-pic
+{
+    margin-top:4%;
+}
+.margin-top-5-service-pic
+{
+    margin-top:3%;
+}
+
+/* services css */
+.services{
+    margin: 40px 0;
+}
+.services-text{
+    margin: auto
+}
+.services-img{
+    width: 100%
+}
+.services-info{
+    font-size: 12px;
+    color: darkgrey;
+    font-weight: 100;
+}
+.heading-section{
+    padding: 20px 0 40px;
+    color: white;
+    background: #3BB4A1;
+    border-radius: 20px 20px 0 0;
+}
+.services-section{
+    margin: auto
+}
+.services-info-section-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding: 0;
+}   
+.services-info-section-2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+        padding: 0
+    }
+.services-img-section{
+    margin: auto;
+    padding: 10px 0;
+    }
+.info-section{
+    margin: auto
+}
+
+.card{
+    width: 30%;
+    margin: 10px;
+}
+/* discover  css*/
+
+    .discover{
+        margin: 140px 0 140px;
+    }
+    .discover-text{
+        border-radius: 20px;
+        border-top: 1px solid #3BB4A1;
+        margin: auto;
+        padding: 30px 0;
+                    }    
+                    .discover-text-2{
+                        margin: auto;
+                        padding: 30px 0;
+                                    }    
+
+.effect8
+{
+    position:relative;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.08), 0 0 40px rgba(0, 0, 0, 0);
+}
+
+.sect-shadow{
+    padding: 10px;
+}
+
+/* Mobile responsiveness */
+
+
+@media(max-width:500px){
+
+    .invert{
+        display: none
+    }
+    .invert-2{
+        display: none
+    }
+    .clients {
+        margin: 0px 0px 155px 0;
+    }
+}
+
+
+.background{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;}
+    
+
+
+
+    /*  mobile  repsonsive*/
+
+    @media(max-width:500px){
+        .margin-top-5-service-pic
+{
+    margin-top:0%;
+}
+        .margin-top-10-service-pic
+        {
+            margin-top:0%;
+        }
+        .discover
+        {
+            margin: 0px 0 0px; 
+        }
+        .navbar-nav
+        {
+            background: white;
+        }
+        .small-screen-logo
+        {
+            width: 60%;
+        }
+        .show-image
+        {
+            display:block;
+        }
+        .margin-top-discover
+        {
+            margin-top: 40%;
+        }
+        .hide-image
+        {
+            display:hidden;
+        }
+        .client-img {
+            width: 70%;
+            margin-left: 16%;
+        }
+        .landing-banner {
+            height: 50%;
+            width: 100%;
+            margin: auto;
+            position: absolute;
+            z-index: -1;
+            top: 35%;
+            left: 0;
+        }
+        .landing {
+            width: 100%;
+            height: 50vh;
+        }
+        .demo-buttons {
+            margin: auto;
+            padding: 0;
+            z-index: 1;
+            margin-left: 10%;
+        }
+        .landing-2 {
+            width: 100%;
+            height: 100vh;
+            margin-top: 0;
+        }
+        .landing-img-2{
+            position: absolute;
+            margin-top: 22%;
+            /*padding: 80px 0 0 0;*/
+        }
+        .coach-text {
+            position: absolute;
+            top: 30%;
+            margin-top: 80%;
+            padding: 20px 20px;
+            z-index: -2;
+        }
+        .financial-coach-text {
+            font-size: 15px;
+            font-weight: 100;
+            color: black;
+            padding-top: 0px;
+        }
+        .features-text {
+            padding-bottom: 40px;
+            padding-top: 100px;
+        }
+        .text-discover{
+           
+            padding: 10px;
+        }
+
+    }
+        @media  (max-width:500px){
+        
+
+        footer{
+            text-align: center;
+            width: 100%;
+            margin-top: 16%;
+            position: relative;
+        }
+            
+           
+        }

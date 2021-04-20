@@ -72,7 +72,7 @@ pluggy==0.12.0
 prompt-toolkit==2.0.9
 psycopg2-binary==2.8.3
 ptyprocess==0.6.0
-py==1.8.0
+py==1.10.0
 pycoin==0.90.20190728
 Pygments==2.4.0
 PyJWT==1.7.1
